@@ -1,5 +1,7 @@
 package nl.igf.blackjack;
 
+import javax.swing.*;
+
 public class Card {
 
     private Suit suit;
@@ -30,5 +32,12 @@ public class Card {
         Card cardOne = new Card(Suit.CLUBS, Rank.TEN);
         Card cardTwo = new Card(Suit.DIAMONDS, Rank.JACK);
 
+    }
+
+    public int getValue() {
+        return switch (this.rank) {
+            case JACK, QUEEN, KING -> 10;
+            default -> this.rank.ordinal() + 1;
+        };
     }
 }
