@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.igf.blackjack.SuitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-24T08:21:53" hostname="LAPTOP-RPI4S0DQ" time="0.021">
+  <properties/>
+  <testcase name="heartPrintsHeart()" classname="nl.igf.blackjack.SuitTest" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
